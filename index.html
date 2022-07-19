@@ -2,15 +2,21 @@
 <html lang="en" dir="ltr">
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
-
 <!--Favicon -->
   <link rel="icon" type="image/png" href="img/Favicon32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="img/Favicon16x16.png" sizes="16x16" />
 <!--End Favicon -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow&display=swap" rel="stylesheet">
+
 
 <title>Jennifer Graw UI/UX Portfolio</title>
-
+  </head>
+  <body>
 <!--Logo -->
 <div><svg width="50px" height="72px" viewBox="0 0 50 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Group 2</title>
@@ -40,45 +46,48 @@
         <li><a href="#contact">Contact</a></li>
        </ul>
     </nav>
-  </head>
+
 
 <!-- Hero Section -->
-  <body>
+
+    <style>
+      /* This style sets the width of all images to 100%: */
+      img {
+        width: 100%;
+      }
+    </style>
 <main>
 <div>
-<div> 
-  <h1> Hello.
-<p>I'm Jenni, a UI Designer and a problem-solver at heart, skilled at empathizing with 
-  people and creating user-centric design solutions.</p>
-</h1>
- </div>
+  <div id="about me">
+    <h1 class="default-heading"> Hello.</h1>
+    <h3 class="customText">I'm Jenni, a UX/UI Designer and a problem-solver at heart, skilled at empathizing with 
+      people and creating user-centric design solutions.</h3>
   </div>
-<!-- End of Hero Section -->
-
+</div>
 <!-- Projects Section -->
-<div>
-   <h2> Projects </h2>
+<div id="my Projects">
+   <h2 class="default-heading"> Projects </h2>
 </div>
  <!-- Project 1 -->
 
 <div>
   <!-- column 1 picture-->
-<picture>
-  <source srcset="img/ProjectThumbnailDERA600.jpg" media="(max-width:767px)">
-  <img src="img/DERA/ProjectThumbnailDERA1200.jpg" alt="DERA Thumbnail Image">
-</picture>
+  <picture>
+    <source srcset="img/ProjectThumbnailDERA600.jpg" media="(max-width:767px)">
+    <img src="img/DERA/ProjectThumbnailDERA1200.jpg" alt="DERA Thumbnail Image">
+  </picture>
 </div>
   <!-- end of column 1 picture-->
 
 <div>
   <!-- column 2 text-->
-<h3>DERA</h3> 
-<br><span>a native app concept for iOS and Android</span>
+  <h3>DERA</h3> 
+  <br><span>a native app concept for iOS and Android</span>
  
 
-<p>DERA is a simple solution for a native music player app. During the development 
- i learned how to design for both systems, iOS and Android by sticking the iOS human inteface guidelines and androids material design guideline.</p>
-<a href="DERA.html">View Case Study</a> <!-- button or link label -->
+  <p>DERA is a simple solution for a native music player app. During the development 
+  i learned how to design for both systems, iOS and Android by sticking the iOS human interface guidelines and androids material design guideline.</p>
+  <a href="DERA.html"class="button dera">View Case Study</a> <!-- button or link label -->
 </div><!-- end column 2 text -->
 <!-- End Project 1 -->
 <div>
@@ -97,7 +106,7 @@
 
     <p>Now is a money saving tool and financial tracking app that helps people save money easy and quickly.</p>
     <p>COMING SOON!</p>
-    <a href="">View Case Study</a><!-- button or link label -->
+ 
  </div>
 <!-- End Project 2 -->
 </div>
@@ -115,7 +124,7 @@
   <p> Have a Project in mind? Let's talk. Call: <a href="tel:+4912345678">12345678 </a> Prefer Email?
   </p>
 <div>
-<a href="mailto:jenn.graw@gmail.com">Email me</a>
+<a href="mailto:jenn.graw@gmail.com"class="button contact">Email me</a>
 </div>
 
 

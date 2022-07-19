@@ -1,4 +1,4 @@
-<head>
+/*<head>
 <link :rel="stylesheet" type=text/css" href="css/style.css">
 </head>
 
@@ -8,4 +8,85 @@ Primary Color (Blue): #0000FF;
 Secondary Color (orange): #FF5C00;
 Background Color (white): #FFFFFF;
 Paragraph Color Projects (black): #000000;
+
+Fonts:
+:afterfont-family: 'Arvo', serif;
+font-family: 'Barlow', sans-serif;
 */
+
+
+body {
+    background-color: white;
+    font-family: barlow, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0000ff;
+  }
+  
+  h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
+  
+  .button.contact {
+    background-color:#FF5C00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button.contact:hover {
+    background-color: #51050f;
+    color: #ffffff;
+  }
+  
+  .button.dera {
+    background-color: #FF5C00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button.dera:hover {
+    background-color: #51050f;
+    color: #ffffff;
+  }
+  
+  .button.resume {
+    background-color: #FF5C00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button.resume:hover {
+    background-color: #51050f;
+    color: #ffffff;
+  }
