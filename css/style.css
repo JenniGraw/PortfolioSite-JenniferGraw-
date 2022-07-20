@@ -21,63 +21,30 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #0000ff;
-  }
+}
 
-  
-  
-  h1 {
+
+h1 {
     font-size: 2.75em;
     font-weight: 700;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 2.25em;
     font-weight: 700;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 1.75em;
     font-weight: 400;
-  }
-  
-  h4 {
+}
+
+h4 {
     font-size: 1.35em;
     font-weight: 400;
-  }
-  
-  .button.contact {
-    background-color:#FF5C00;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  
-  .button.contact:hover {
-    background-color: #51050f;
-    color: #ffffff;
-  }
-  
-  .button.dera {
-    background-color: #0000ff;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  
-  .button.dera:hover {
-    background-color: #111167;
-    color: #ffffff;
-  }
-  
-  .button.resume {
+}
+
+.button.contact {
     background-color: #FF5C00;
     border: none;
     color: white;
@@ -86,26 +53,129 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-  
-  .button.resume:hover {
+}
+
+.button.contact:hover {
     background-color: #51050f;
     color: #ffffff;
-  }
+}
+
+.button.dera {
+    background-color: #0000ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button.dera:hover {
+    background-color: #111167;
+    color: #ffffff;
+}
+
+.button.resume {
+    background-color: #FF5C00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button.resume:hover {
+    background-color: #51050f;
+    color: #ffffff;
+}
 
 
-  header {
+header {
     background-color: #FFFAF8;
-    padding: 10px;
     margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 3px solid #4a4a4a;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
 }
 
 
 .socials {
     padding: 0;
     text-align: center;
-    display: inline-block;
+    display: inline;
     max-width: 40px;
     margin: 10px 15px 10px 15px;
     color: #000000;
-  }
+}
+
+/*.logo {*/
+/*    max-width: 250px;*/
+/*}*/
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+#hero {
+    background-color: #FFFAF8;
+    padding: 20px 0;
+}
+
+#project-2 {
+     margin-top: 30px;
+}
+
+#project-2 {
+    margin-top: 30px;
+}
+
+#me {
+    max-width: 300px;
+}
+
+#user-flow {
+    max-width: 40%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFFAF8;
+
+}
+
+#contact {
+    width: 80%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
