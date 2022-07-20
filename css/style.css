@@ -60,7 +60,7 @@ body {
   }
   
   .button.dera {
-    background-color: #FF5C00;
+    background-color: #0000ff;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -71,7 +71,7 @@ body {
   }
   
   .button.dera:hover {
-    background-color: #51050f;
+    background-color: #111167;
     color: #ffffff;
   }
   
